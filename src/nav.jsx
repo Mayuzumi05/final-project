@@ -1,6 +1,5 @@
 import React from "react";
 import { Avatar, Dropdown, Navbar } from "flowbite-react";
-import { Link } from "react-router-dom";
 
 const Nav = () => {
     return (
