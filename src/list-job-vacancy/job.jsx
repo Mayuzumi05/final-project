@@ -8,22 +8,6 @@ function Job() {
 
     const [data, setData] = useState(null)
 
-    const [input, setInput] = useState(
-        {
-            title: "",
-            job_description: "",
-            job_qualification: "",
-            job_type: "",
-            job_tenure: "",
-            job_status: 0,
-            company_name: "",
-            company_image_url: "",
-            company_city: "",
-            salary_min: 0,
-            salary_max: 0,
-        }
-    )
-
     const [fetchStatus, setFetchStatus] = useState(true)
 
     useEffect(() => {
